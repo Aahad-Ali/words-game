@@ -1,0 +1,391 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-button {
+    position: absolute;
+    left: 46%;
+    bottom: 70%;
+
+}#score{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#button {
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+#pairs {
+
+padding: 10px;
+    border: 2px solid red;
+    /* margin-left: 40%;
+    margin-right: 40%; */
+    position: absolute;
+    left: 60%;
+    border-radius: 10px;
+}
+
+#line1 {
+    display: flex;
+    margin-left: 42%;
+    margin-top: 3%;
+}
+
+#line2 {
+    display: flex;
+    margin-left: 42%;
+}
+
+#line3 {
+    display: flex;
+    margin-left: 42%;
+}
+
+#line4 {
+    display: flex;
+    margin-left: 42%;
+}
+
+#line5 {
+    display: flex;
+    margin-left: 42%;
+}
+
+
+#box1 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box2 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box3 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box4 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box5 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box6 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box7 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box8 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box9 {
+    border: 1px solid red;
+    padding: 15px;
+    padding-right: 19px;
+    padding-left: 19px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box10 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box11 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box12 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box13 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box14 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box15 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box16 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box17 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box18 {
+    border: 1px solid red;
+    padding: 15px;
+    padding-left: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box19 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box20 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box21 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box22 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box23 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box24 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box25 {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#show {
+    height: 50px;
+    border: 4px solid greenyellow;
+    margin-right: 44%;
+    margin-top: 10%;
+    margin-left: 42%;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#box1:hover {
+    background: rgb(225, 56, 56);
+    color: #fff;
+    border: 1px solid red;
+}
+
+#box2:hover {
+    background: rgb(225, 56, 56);
+    color: #fff;
+}
+
+#box3:hover {
+    background: rgb(60, 222, 60);
+    color: #fff;
+}
+
+#box4:hover {
+    background: rgb(185, 225, 56);
+    color: #fff;
+}
+
+#box5:hover {
+    background: rgb(208, 255, 0);
+    color: #fff;
+}
+
+#box6:hover {
+    background: rgb(34, 240, 161);
+    color: #fff;
+}
+
+#box7:hover {
+    background: rgb(25, 244, 251);
+    color: #fff;
+}
+
+#box8:hover {
+    background: rgb(34, 149, 237);
+    color: #fff;
+}
+
+#box9:hover {
+    background: rgb(71, 66, 232);
+    color: #fff;
+}
+
+#box10:hover {
+    background: rgb(55, 6, 217);
+    color: #fff;
+}
+
+#box11:hover {
+    background: rgb(211, 56, 225);
+    color: #fff;
+}
+
+#box12:hover {
+    background: rgb(117, 4, 104);
+    color: #fff;
+}
+
+#box13:hover {
+    background: rgb(140, 20, 20);
+    color: #fff;
+}
+
+#box14:hover {
+    background: rgb(69, 15, 113);
+    color: #fff;
+}
+
+#box15:hover {
+    background: rgb(182, 218, 22);
+    color: #fff;
+}
+
+#box16:hover {
+    background: rgb(214, 137, 137);
+    color: #fff;
+}
+
+#box16 :hover {
+    background: rgb(155, 224, 189);
+    color: #fff;
+}
+
+#box17:hover {
+    background: rgb(164, 131, 218);
+    color: #fff;
+}
+
+#box18:hover {
+    background: rgb(148, 219, 235);
+    color: #fff;
+}
+
+#box19:hover {
+    background: rgb(86, 17, 84);
+    color: #fff;
+}
+
+#box20:hover {
+    background: rgb(240, 138, 138);
+    color: #fff;
+}
+
+#box21:hover {
+    background: rgb(214, 236, 118);
+    color: #fff;
+}
+
+#box22:hover {
+    background: rgb(7, 40, 66);
+    color: #fff;
+}
+
+#box23:hover {
+    background: rgb(239, 92, 210);
+    color: #fff;
+
+}
+
+#box24:hover {
+    background: rgb(8, 71, 24);
+    color: #fff;
+}
+
+#box25:hover {
+    background: rgb(121, 215, 121);
+    color: #fff;
+}
